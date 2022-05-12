@@ -7,13 +7,6 @@ jobs:
   generate-changelog:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: fabernovel/github-changelog-generator-action@{latest-release}
       with:
-        fetch-depth: 0
-    - uses: BobAnkh/auto-generate-changelog@master
-      with:
-        REPO_NAME: 'soconnor71/testRepo'
-        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        PATH: 'CHANGELOG.md'
-        COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
-        TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'
+        options: --token ${{ secrets.GITHUB_TOKEN }}
