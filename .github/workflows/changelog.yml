@@ -15,8 +15,6 @@ jobs:
       uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
       with:
         options: --token ${{ secrets.GITHUB_TOKEN }}
-    - name: move to space
-      run: mv /github/workspace/CHANGELOG.md .
     - name: Commit and push changes
       run: |
         git add -A
