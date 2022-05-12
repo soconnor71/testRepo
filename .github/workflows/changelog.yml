@@ -7,6 +7,6 @@ jobs:
   generate-changelog:
     runs-on: ubuntu-latest
     steps:
-    - uses: fabernovel/github-changelog-generator-action@{latest-release}
+    - uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
       with:
         options: --token ${{ secrets.GITHUB_TOKEN }}
