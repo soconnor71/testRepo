@@ -17,6 +17,8 @@ jobs:
         options: --token ${{ secrets.GITHUB_TOKEN }}
     - name: Commit and push changes
       run: |
+        git config --global user.email "simon.oconnor@unstoppabledomains.com"
+        git config --global user.name "soconnor71"
         git add -A
         git commit -m "Updated CHANGELOG.md"
         git push 
