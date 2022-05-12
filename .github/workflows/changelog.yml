@@ -18,7 +18,7 @@ jobs:
     - name: move to space
       run: mv /github/workspace/CHANGELOG.md .
     - name: Commit and push changes
-        run:|
-          git add -A
-          git commit -m "Updated CHANGELOG.md"
-          git push 
+      run: |
+        git add -A
+        git commit -m "Updated CHANGELOG.md"
+        git push 
