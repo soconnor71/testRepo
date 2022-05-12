@@ -7,12 +7,18 @@ jobs:
   generate-changelog:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout code
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: BobAnkh/auto-generate-changelog@master
+    - name: run changelog
+      uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
       with:
-        REPO_NAME: 'soconnor71/testRepo'
-        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        PATH: 'CHANGELOG.md'
-        COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
+        options: --token ${{ secrets.GITHUB_TOKEN }}
+    - name: move to space
+      run: mv /github/workspace/CHANGELOG.md .
+    - name: Commit and push changes
+        run:|
+          git add -A
+          git commit -m "Updated CHANGELOG.md"
+          git push 
