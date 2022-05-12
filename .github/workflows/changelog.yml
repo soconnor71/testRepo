@@ -15,10 +15,19 @@ jobs:
       uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
       with:
         options: --token ${{ secrets.GITHUB_TOKEN }}
-    - name: Commit and push changes
-      run: |
-        git config --global user.email "simon.oconnor@unstoppabledomains.com"
-        git config --global user.name "soconnor71"
-        git add -A
-        git commit -m "Updated CHANGELOG.md"
-        git push 
+    - name: Commit files
+        env:
+          CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
+          CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
+        run: |
+          git config --local user.email "$CI_EMAIL"
+          git config --local user.name "$CI_USER"
+          git add CHANGELOG.md && git commit -m 'Updated CHANGELOG.md' && echo "push=true" >> $GITHUB_ENV || echo "No changes to CHANGELOG.md"
+
+      - name: Push changes
+        if: env.push == 'true'
+        env:
+          CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
+          CI_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN or GITHUB_TOKEN }}
+        run: |
+          git push "https://$CI_USER:$CI_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:master
