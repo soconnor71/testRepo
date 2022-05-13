@@ -7,7 +7,7 @@ jobs:
   generate-changelog:
     permissions:
       id-token: write
-      contents: read
+      contents: write
       checks: write
       pull-requests: write 
     runs-on: ubuntu-latest
