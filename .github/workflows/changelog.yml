@@ -5,7 +5,11 @@ on:
 
 jobs:
   generate-changelog:
-    permissions: write-all
+    permissions:
+      id-token: write
+      contents: read
+      checks: write
+      pull-requests: write 
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
