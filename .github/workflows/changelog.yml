@@ -6,9 +6,7 @@ on:
 jobs:
   generate-changelog:
     permissions:
-      id-token: write
       contents: write
-      checks: write
       pull-requests: write 
     runs-on: ubuntu-latest
     steps:
