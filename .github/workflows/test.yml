@@ -32,4 +32,4 @@ jobs:
         run: |
           # Stage the file, commit and push
           git commit -am "updated changelog"
-          git push origin master
+          git push origin ${GITHUB_REF##*/}
