@@ -17,7 +17,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: generate-changelog:
+      - name: generate-changelog
         uses: faberNovel/github-changelog-generator-action@v1.0.0-alpha02
         with:
           options: --token ${{ secrets.GITHUB_TOKEN }}
