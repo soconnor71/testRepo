@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Test branch [\#9](https://github.com/soconnor71/testRepo/pull/9) ([soconnor71](https://github.com/soconnor71))
 - fix: made things even better now [\#7](https://github.com/soconnor71/testRepo/pull/7) ([soconnor71](https://github.com/soconnor71))
 - feat: updated the workflow for manual [\#6](https://github.com/soconnor71/testRepo/pull/6) ([soconnor71](https://github.com/soconnor71))
 - feat: Feature Added new feature [\#5](https://github.com/soconnor71/testRepo/pull/5) ([soconnor71](https://github.com/soconnor71))
