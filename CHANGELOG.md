@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## Unreleased
+
+Changes unreleased.
+
+### Feature
+
+- general:
+  - Added new feature ([6b4476d](https://github.com/soconnor71/testRepo/commit/6b4476d7cf766e8f34efff213788c1d76b15da7f)) ([#4](https://github.com/soconnor71/testRepo/pull/4))
+
 ## [19](https://github.com/soconnor71/testRepo/releases/tag/19) - 2022-05-14 00:02:55
 
 19
