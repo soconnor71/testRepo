@@ -11,6 +11,11 @@ Changes unreleased.
   - Feature Added new feature ([a096826](https://github.com/soconnor71/testRepo/commit/a096826f27d35c580fc30af3b7392aba7470081c)) ([#5](https://github.com/soconnor71/testRepo/pull/5))
   - Added new feature ([6b4476d](https://github.com/soconnor71/testRepo/commit/6b4476d7cf766e8f34efff213788c1d76b15da7f)) ([#4](https://github.com/soconnor71/testRepo/pull/4))
 
+### Bug Fixes
+
+- general:
+  - updated the workflow ([ecf6ec9](https://github.com/soconnor71/testRepo/commit/ecf6ec9d6fa73af483a2c52515ab73c76ce8ff5b))
+
 ## [19](https://github.com/soconnor71/testRepo/releases/tag/19) - 2022-05-14 00:02:55
 
 19
