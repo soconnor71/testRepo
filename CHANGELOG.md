@@ -1,95 +1,93 @@
-# CHANGELOG
+# Changelog
 
-## Unreleased
+## [Unreleased](https://github.com/soconnor71/testRepo/tree/HEAD)
 
-Changes unreleased.
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/19...HEAD)
 
-### Feature
+**Merged pull requests:**
 
-- general:
-  - updated the workflow for manual ([b20f1f9](https://github.com/soconnor71/testRepo/commit/b20f1f95cbfee11a2fbb5101161521923f568afe)) ([#6](https://github.com/soconnor71/testRepo/pull/6))
-  - Feature Added new feature ([a096826](https://github.com/soconnor71/testRepo/commit/a096826f27d35c580fc30af3b7392aba7470081c)) ([#5](https://github.com/soconnor71/testRepo/pull/5))
-  - Added new feature ([6b4476d](https://github.com/soconnor71/testRepo/commit/6b4476d7cf766e8f34efff213788c1d76b15da7f)) ([#4](https://github.com/soconnor71/testRepo/pull/4))
+- feat: updated the workflow for manual [\#6](https://github.com/soconnor71/testRepo/pull/6) ([soconnor71](https://github.com/soconnor71))
+- feat: Feature Added new feature [\#5](https://github.com/soconnor71/testRepo/pull/5) ([soconnor71](https://github.com/soconnor71))
+- feat: Added new feature [\#4](https://github.com/soconnor71/testRepo/pull/4) ([soconnor71](https://github.com/soconnor71))
+- TEST: added more changes [\#3](https://github.com/soconnor71/testRepo/pull/3) ([soconnor71](https://github.com/soconnor71))
+- TEST: changed things [\#1](https://github.com/soconnor71/testRepo/pull/1) ([soconnor71](https://github.com/soconnor71))
 
-### Bug Fixes
+## [19](https://github.com/soconnor71/testRepo/tree/19) (2022-05-14)
 
-- general:
-  - updated the workflow ([ecf6ec9](https://github.com/soconnor71/testRepo/commit/ecf6ec9d6fa73af483a2c52515ab73c76ce8ff5b))
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/18...19)
 
-## [19](https://github.com/soconnor71/testRepo/releases/tag/19) - 2022-05-14 00:02:55
+## [18](https://github.com/soconnor71/testRepo/tree/18) (2022-05-13)
 
-19
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/17...18)
 
-## [18](https://github.com/soconnor71/testRepo/releases/tag/18) - 2022-05-13 23:45:19
+## [17](https://github.com/soconnor71/testRepo/tree/17) (2022-05-13)
 
-18
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/16...17)
 
-## [17](https://github.com/soconnor71/testRepo/releases/tag/17) - 2022-05-13 23:35:54
+## [16](https://github.com/soconnor71/testRepo/tree/16) (2022-05-13)
 
-17
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/15...16)
 
-## [16](https://github.com/soconnor71/testRepo/releases/tag/16) - 2022-05-13 23:14:18
+## [15](https://github.com/soconnor71/testRepo/tree/15) (2022-05-13)
 
-16
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/14...15)
 
-## [15](https://github.com/soconnor71/testRepo/releases/tag/15) - 2022-05-13 22:52:11
+## [14](https://github.com/soconnor71/testRepo/tree/14) (2022-05-13)
 
-15
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/13...14)
 
-## [14](https://github.com/soconnor71/testRepo/releases/tag/14) - 2022-05-13 22:22:47
+## [13](https://github.com/soconnor71/testRepo/tree/13) (2022-05-13)
 
-**Full Changelog**: https://github.com/soconnor71/testRepo/compare/13...14
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/12...13)
 
-## [13](https://github.com/soconnor71/testRepo/releases/tag/13) - 2022-05-13 15:56:43
+## [12](https://github.com/soconnor71/testRepo/tree/12) (2022-05-13)
 
-13
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/11...12)
 
-## [12](https://github.com/soconnor71/testRepo/releases/tag/12) - 2022-05-13 00:04:18
+## [11](https://github.com/soconnor71/testRepo/tree/11) (2022-05-13)
 
-12
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/10...11)
 
-## [11](https://github.com/soconnor71/testRepo/releases/tag/11) - 2022-05-13 00:02:13
+## [10](https://github.com/soconnor71/testRepo/tree/10) (2022-05-12)
 
-11
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.8...10)
 
-## [10](https://github.com/soconnor71/testRepo/releases/tag/10) - 2022-05-12 23:55:51
+## [0.0.8](https://github.com/soconnor71/testRepo/tree/0.0.8) (2022-05-12)
 
-release 10
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.7...0.0.8)
 
-## [0.0.9](https://github.com/soconnor71/testRepo/releases/tag/0.0.9) - 2022-05-12 20:55:18
+## [0.0.7](https://github.com/soconnor71/testRepo/tree/0.0.7) (2022-05-12)
 
-Another test
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.6...0.0.7)
 
-## [0.0.8](https://github.com/soconnor71/testRepo/releases/tag/0.0.8) - 2022-05-12 23:42:23
+## [0.0.6](https://github.com/soconnor71/testRepo/tree/0.0.6) (2022-05-12)
 
-Release
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.5...0.0.6)
 
-## [0.0.7](https://github.com/soconnor71/testRepo/releases/tag/0.0.7) - 2022-05-12 23:39:43
+## [0.0.5](https://github.com/soconnor71/testRepo/tree/0.0.5) (2022-05-12)
 
-more testing
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.4...0.0.5)
 
-## [0.0.6](https://github.com/soconnor71/testRepo/releases/tag/0.0.6) - 2022-05-12 23:36:54
+## [0.0.4](https://github.com/soconnor71/testRepo/tree/0.0.4) (2022-05-12)
 
-test
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.3...0.0.4)
 
-## [0.0.5](https://github.com/soconnor71/testRepo/releases/tag/0.0.5) - 2022-05-12 23:34:59
+## [0.0.3](https://github.com/soconnor71/testRepo/tree/0.0.3) (2022-05-12)
 
-Trying to copy file and commit back to repo
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.2...0.0.3)
 
-## [0.0.4](https://github.com/soconnor71/testRepo/releases/tag/0.0.4) - 2022-05-12 22:46:22
+## [0.0.2](https://github.com/soconnor71/testRepo/tree/0.0.2) (2022-05-12)
 
-0.0.4 release
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.9...0.0.2)
 
-## [0.0.3](https://github.com/soconnor71/testRepo/releases/tag/0.0.3) - 2022-05-12 21:55:13
+## [0.0.9](https://github.com/soconnor71/testRepo/tree/0.0.9) (2022-05-12)
 
-New attempt
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/0.0.1...0.0.9)
 
-## [0.0.2](https://github.com/soconnor71/testRepo/releases/tag/0.0.2) - 2022-05-12 21:38:54
+## [0.0.1](https://github.com/soconnor71/testRepo/tree/0.0.1) (2022-05-12)
 
-trying to get changelog released
+[Full Changelog](https://github.com/soconnor71/testRepo/compare/d47f707c2f0ff6cf71baaf4cdc315bcd524da5b7...0.0.1)
 
-## [0.0.1](https://github.com/soconnor71/testRepo/releases/tag/0.0.1) - 2022-05-12 20:55:18
 
-Initial release
 
-\* *This CHANGELOG was automatically generated by [auto-generate-changelog](https://github.com/BobAnkh/auto-generate-changelog)*
+\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*
