@@ -7,6 +7,8 @@ Changes unreleased.
 ### Feature
 
 - general:
+  - updated the workflow for manual ([b20f1f9](https://github.com/soconnor71/testRepo/commit/b20f1f95cbfee11a2fbb5101161521923f568afe)) ([#6](https://github.com/soconnor71/testRepo/pull/6))
+  - Feature Added new feature ([a096826](https://github.com/soconnor71/testRepo/commit/a096826f27d35c580fc30af3b7392aba7470081c)) ([#5](https://github.com/soconnor71/testRepo/pull/5))
   - Added new feature ([6b4476d](https://github.com/soconnor71/testRepo/commit/6b4476d7cf766e8f34efff213788c1d76b15da7f)) ([#4](https://github.com/soconnor71/testRepo/pull/4))
 
 ## [19](https://github.com/soconnor71/testRepo/releases/tag/19) - 2022-05-14 00:02:55
