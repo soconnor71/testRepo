@@ -23,8 +23,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: 'CHANGELOG.md'
-          bugsLabel: 'fix'
-          
+          bugLabels: 'fix,Fix,bug,Bug'
+          addSections: '{"features":{"prefix":"**Feature updates:**","labels":["feat", "Feat", "Feature", "feature"]}}'
 
       - name: setup git config
         run: |
